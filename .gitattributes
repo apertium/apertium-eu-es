@@ -1,1 +1,10 @@
 * text=auto !eol
+/Makefile.am -text
+/apertium-eu-es.es.dix -text
+/apertium-eu-es.eu-es.dix -text
+/apertium-eu-es.eu-es.t1x -text
+/apertium-eu-es.eu-es.t2x -text
+/apertium-eu-es.eu-es.t3x -text
+/apertium-eu-es.eu.dix -text
+/apertium-eu-es.post-es.dix -text
+/eu_morph_gen.xml -text
