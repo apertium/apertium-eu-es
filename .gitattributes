@@ -1,5 +1,8 @@
 * text=auto !eol
+/AUTHORS -text
 /Makefile.am -text
+/NEWS -text
+/README -text
 /apertium-eu-es.es.dix -text
 /apertium-eu-es.eu-es-adjgender.dix -text
 /apertium-eu-es.eu-es.dix -text
