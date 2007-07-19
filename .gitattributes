@@ -9,6 +9,8 @@
 /apertium-eu-es.eu.dix -text
 /apertium-eu-es.eu.tsx -text
 /apertium-eu-es.post-es.dix -text
+/autogen.sh -text
+/configure.ac -text
 /eu-es.prob -text
 /eu_morph_gen.xml -text
 /modes.xml -text
