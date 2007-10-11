@@ -15,6 +15,7 @@
 /apertium-eu-es.post-es.dix -text
 /autogen.sh -text
 /configure.ac -text
-/eu-es.prob -text
+/eu-es-latin1.prob -text
+/eu-es.prob -text svneol=unset#unset
 /eu_morph_gen.xml -text
 /modes.xml -text
