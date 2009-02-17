@@ -11,6 +11,7 @@
 /apertium-eu-es.eu-es.t3x -text
 /apertium-eu-es.eu.dix -text
 /apertium-eu-es.eu.tsx -text
+/apertium-eu-es.ordinals.t1x -text
 /apertium-eu-es.post-es.dix -text
 /autogen.sh -text
 /configure.ac -text
