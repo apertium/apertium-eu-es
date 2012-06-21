@@ -17,6 +17,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/main_sect.1line.xml -text
+/es-eu.prob -text
 /eu-es-latin1.prob -text
 /eu-es.prob -text svneol=unset#unset
 /eu_morph_gen.xml -text
