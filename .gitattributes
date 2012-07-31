@@ -16,6 +16,7 @@
 /apertium-eu-es.post-es.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/apertium-eu-es.eu-es.ldx -text
 dev/main_sect.1line.xml -text
 /es-eu.prob -text
 /eu-es-latin1.prob -text
