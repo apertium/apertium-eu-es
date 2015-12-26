@@ -19,6 +19,9 @@
 /configure.ac -text
 dev/apertium-eu-es.eu-es.ldx -text
 dev/apertium-eu-es.eu-es.lrx -text
+dev/format-problems/darkgaia/1trimmedworking.odt -text
+dev/format-problems/darkgaia/2trimmedworking.odt -text
+dev/format-problems/darkgaia/README.txt -text
 dev/fran-regler.xml -text
 dev/main_sect.1line.xml -text
 /es-eu.prob -text
