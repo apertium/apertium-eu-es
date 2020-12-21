@@ -1,34 +1,5 @@
-* text=auto !eol
-/AUTHORS -text
-/COPYING -text
-/ChangeLog -text
-/Makefile.am -text
-/NEWS -text
-/README -text
-/apertium-eu-es.es.dix -text
-/apertium-eu-es.eu-es.dix -text
-/apertium-eu-es.eu-es.rlx -text
-/apertium-eu-es.eu-es.t1x -text
-/apertium-eu-es.eu-es.t2x -text
-/apertium-eu-es.eu-es.t3x -text
-/apertium-eu-es.eu.dix -text
-/apertium-eu-es.eu.tsx -text
-/apertium-eu-es.ordinals.t1x -text
-/apertium-eu-es.post-es.dix -text
-/autogen.sh -text
-/configure.ac -text
-dev/apertium-eu-es.eu-es.ldx -text
-dev/apertium-eu-es.eu-es.lrx -text
-dev/format-problems/darkgaia/1trimmedworking.odt -text
-dev/format-problems/darkgaia/2trimmedworking.odt -text
-dev/format-problems/darkgaia/README.txt -text
-dev/fran-regler.xml -text
-dev/main_sect.1line.xml -text
-/es-eu.prob -text
-/eu-es-latin1.prob -text
-/eu-es.prob -text svneol=unset#unset
-/eu_morph_gen.xml -text
-/modes.xml -text
+* text eol=lf
+*.odt binary
 *.dix linguist-language=XML linguist-detectable=true
 *.lrx linguist-language=XML linguist-detectable=true
 *.lsx linguist-language=XML linguist-detectable=true

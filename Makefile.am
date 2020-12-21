@@ -1,4 +1,3 @@
-VERSION=0.3.3
 LANG1=eu
 LANG2=es
 PREFIX1=$(LANG1)-$(LANG2)
@@ -15,6 +14,7 @@ TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
           # $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
 	  # $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
 
+@ap_include@
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
@@ -157,13 +157,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 #	    $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).t3x
 #	    $(BASENAME).$(LANG2).tsx
 
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
 apertium_eu_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_modesdir=$(prefix)/share/apertium/modes/
 
 apertium_eu_es_DATA=$(PREFIX1).automorf.bin \
                     $(PREFIX2).automorf.bin \
@@ -178,14 +172,7 @@ apertium_eu_es_DATA=$(PREFIX1).automorf.bin \
 
 noinst_DATA=modes/$(PREFIX1).mode
 
-install-data-local:
-	mv modes modes.bak
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_modesdir) || mkdir $(DESTDIR)$(apertium_modesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_modesdir)
-	rm -f $(PREFIX1).mode
+install-data-local: install-modes
 
 CLEANFILES = $(TARGETS)
 clean-local:
