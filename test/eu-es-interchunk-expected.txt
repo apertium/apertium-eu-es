@@ -1,0 +1,18 @@
+[0DUCxD10owuT#0] ^cm<cm>{^,<cm>$}$
+[/0DUCxD10owuT]
+[3fKi5LoysCmO#0] ^unknown<unknown>{^*rdrok$}$
+[/3fKi5LoysCmO]
+[5FCNwcLaUzY4#0] ^unknown<unknown>{^*Aatin$}$
+[/5FCNwcLaUzY4]
+[DCdsFJ0vKe14#0] ^nom<SN><UNDET><mf><sp>{^NMONC<n><acr><3><4>$}$
+[/DCdsFJ0vKe14]
+[N1r69tNvUzYE#0] ^nom<SN><UNDET><mf><sp>{^PVEVD<n><acr><3><4>$}$
+[/N1r69tNvUzYE]
+[QbgF6nrAFOI1#0] ^punt<sent>{^;<sent>$}$
+[/QbgF6nrAFOI1]
+[R4qMrR0w_2W8#0] ^Pr_d_num<SPR><def><f><pl>{^a<pr>$ ^el<det><2><3><4>$ ^3<num>$}$
+[/R4qMrR0w_2W8]
+[_lis1LLVbmWb#0] ^nom<SN><UNDET><mf><sp>{^PVTXG<n><acr><3><4>$}$
+[/_lis1LLVbmWb]
+[ayPA1fNdGxH5#0] ^unknown<unknown>{^*C$}$
+[/ayPA1fNdGxH5]
